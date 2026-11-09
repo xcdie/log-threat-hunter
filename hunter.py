@@ -23,6 +23,7 @@ THREAT_SIGNATURES = {
         r"(/bin/sh|/bin/bash|cmd\.exe|powershell\.exe|whoami|id)", 
         re.IGNORECASE
     )
+    
 }
 
 class LogSecurityHandler(FileSystemEventHandler):

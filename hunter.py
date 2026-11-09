@@ -6,7 +6,6 @@ from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-
 THREAT_SIGNATURES = {
     "SQL Injection (SQLi)": re.compile(
         r"(UNION\s+SELECT|SELECT\s+.*\s+FROM|'--|(--)|'OR\s+['\"]?\d+['\"]?\s*=\s*['\"]?\d+)", 
